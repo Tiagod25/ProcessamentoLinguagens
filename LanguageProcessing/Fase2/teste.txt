@@ -1,0 +1,43 @@
+title = "TOML Example"
+[owner]
+name = "Tom Preston-Werner"
+date = 2010-04-23
+time = 21:30:00
+
+[database]
+server =  "10.0.0.1"
+ports = [ 8001, 8001, 8002 ]
+connection_max = 5000
+enabled = true
+
+[servers]
+[servers.alpha]
+ip =  "10.0.0.1"
+dc = "eqdc10"
+
+[servers.beta]
+ip =  "10.0.0.1"
+dc = "eqdc10"
+
+hosts = [
+"alpha",
+"omega"
+]
+[databasedois.lol]
+server =  "10.0.0.1"
+ports = [ 8001, 8001, 8002 ]
+connection_max = 5000
+enabled = true
+ports = [ 8001, 8001, 8002 ]
+connection_max = 5000
+enabled = true
+
+
+
+
+
+
+
+
+
+

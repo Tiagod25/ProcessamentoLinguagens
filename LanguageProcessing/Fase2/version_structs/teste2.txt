@@ -1,0 +1,30 @@
+title = "TOML Example"
+[owner]
+name = "Tom Preston-Werner"
+date = 2010-04-23
+time = 21:30:00
+
+[database]
+server = "192.168.1.1"
+ports = [ 8001, 8001, 8002 ]
+path = 'C:\Users\nodejs\templates'
+"bin1" = 0b11010110
+'hex2' = 0xdead_beef
+oct3 = 0o01234567
+connection_max = -2.00e12
+enabled = true
+users = +nan
+regex = '<\i\c*\s*>'
+
+[servers]
+[servers.alpha]
+ip = "10.0.0.1"
+dc = "eqdc10"
+hosts = ["alpha","omega"]
+
+[servers.beta]
+ip = "10.0.0.2"
+dc = "eqdc10"
+
+hosts = ["alpha","omega"]
+
